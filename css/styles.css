@@ -17,7 +17,9 @@ Large: 1.8
 -0.5px
 0.75px
 --- 02 COLORS
-- Primary: 
+- Primary: #e63946 (FOR BUTTONS)
+            #f1faee (FOR BACKGROUND)
+            #ffc49b
 - Tints:
 
 - Shades: 
@@ -38,3 +40,14 @@ Medium: 11px
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1faee;
+}
