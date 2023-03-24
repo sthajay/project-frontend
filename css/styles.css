@@ -18,7 +18,7 @@ Large: 1.8
 0.75px
 --- 02 COLORS
 - Primary: #e63946 (FOR BUTTONS)
-            #f1faee (FOR BACKGROUND)
+            #faebd7 (FOR BACKGROUND)
             #ffc49b
 - Tints:
 
@@ -47,29 +47,37 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f1faee;
+  background-color: #faebd7;
+
+  color: #333;
 }
 
 /* ***************BUTTONS**************** */
 /* **************************************** */
 .button {
-  padding: 10px 30px;
+  padding: 1rem 3rem;
   background-color: #fff;
   border: 1px solid #e63946;
-  border-radius: 50px;
+  border-radius: 5rem;
 
+  font-size: 1.8rem;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .active-button {
-  padding: 10px 30px;
+  padding: 1rem 3rem;
   background-color: #e63946;
-  border-radius: 50px;
+  border-radius: 5rem;
   color: #fff;
 
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -80,8 +88,8 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  height: 80px;
-  padding: 0 40px;
+  height: 8rem;
+  padding: 0 4rem;
 }
 
 .div-nav {
@@ -90,11 +98,16 @@ body {
 
 .nav-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
+  font-size: 1.8rem;
   list-style: none;
 }
 
 .nav-links a {
-  margin-right: 30px;
+  display: inline-block;
+  color: #000;
+  margin-right: 4rem;
   text-decoration: none;
 }
