@@ -1,0 +1,102 @@
+/*
+**************************THESE ARE THE COMMON STYLES*****************************
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+- Letter spacing
+-0.5px
+0.75px
+--- 02 COLORS
+- Primary: #dc2f02 (FOR BUTTONS)
+            #fcf3e7 (FOR BACKGROUND)
+            #ffc49b
+- Tints:
+
+- Shades: #c62a02
+
+- Accents:
+- Greys
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#555
+#333
+--- 05 SHADOWS
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+--- 06 BORDER-RADIUS
+Default: 9px
+Medium: 11px
+--- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcf3e7;
+
+  color: #333;
+}
+
+/* ***************BUTTONS**************** */
+/* **************************************** */
+.button:link,
+.button:visited {
+  padding: 1rem 3rem;
+  background-color: #fff;
+  border: 1px solid #dc2f02;
+  border-radius: 5rem;
+  color: #dc2f02;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 2rem;
+
+  transition: all 0.3s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #eee;
+}
+
+.active-button:link,
+.active-button:visited {
+  padding: 1rem 3rem;
+  background-color: #dc2f02;
+  border-radius: 5rem;
+  color: #fff;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.active-button:hover,
+.active-button:active {
+  background-color: #c62a02;
+}
