@@ -78,3 +78,56 @@ header {
 .hero-para {
   font-size: 2.4rem;
 }
+
+/* ***************SERVICES SECTION**************** */
+/* **************************************** */
+.services-grid {
+  /* max-width: 80%; */
+  margin: 0 20%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+  column-gap: 4rem;
+  row-gap: 3rem;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.service-text h1 {
+  font-size: 5.2rem;
+  color: #aaa;
+  line-height: 1.05;
+}
+
+.service-text h2 {
+  font-size: 3.6rem;
+}
+
+.service-text p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.service-text a:link,
+.service-text a:visited {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 2;
+  color: #dc2f02;
+  text-decoration: none;
+}
+
+.service-text a:hover,
+.service-text a:active {
+  text-decoration: underline;
+}
+
+.service-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
