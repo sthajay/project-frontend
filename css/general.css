@@ -50,6 +50,7 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -99,4 +100,13 @@ body {
 .active-button:hover,
 .active-button:active {
   background-color: #c62a02;
+}
+
+/* ***************HEADINGS**************** */
+/* **************************************** */
+.main-heading {
+  text-align: center;
+  margin: 8rem 0;
+
+  font-size: 4.4rem;
 }
