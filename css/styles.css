@@ -150,7 +150,7 @@ header {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10rem;
+  column-gap: 8rem;
 
   text-align: center;
 }
@@ -159,11 +159,11 @@ header {
   background-color: #eee;
   border-radius: 0.3rem;
 
-  padding: 3rem 2rem;
+  padding: 4em 2rem;
 }
 
 .icon {
-  font-size: 5rem;
+  font-size: 8rem;
   --ionicon-stroke-width: 16px;
 }
 
