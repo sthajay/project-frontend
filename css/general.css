@@ -60,6 +60,15 @@ body {
   color: #333;
 }
 
+.bar {
+  width: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  border-bottom: 3px solid #dc2f02;
+}
+
 /* ***************BUTTONS**************** */
 /* **************************************** */
 .button:link,
@@ -109,4 +118,9 @@ body {
   margin: 8rem 0;
 
   font-size: 4.4rem;
+}
+
+.tertiary-heading {
+  font-size: 2rem;
+  line-height: 2.5;
 }
