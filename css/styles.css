@@ -81,6 +81,10 @@ header {
 
 /* ***************SERVICES SECTION**************** */
 /* **************************************** */
+#section-services {
+  padding-bottom: 5rem;
+}
+
 .services-grid {
   /* max-width: 80%; */
   margin: 0 20%;
@@ -132,12 +136,8 @@ header {
   object-fit: cover;
 }
 
-/* ***************HOW OT WORKS SECTION**************** */
+/* ***************HOW IT WORKS SECTION**************** */
 /* **************************************** */
-#section-services {
-  padding-bottom: 5rem;
-}
-
 .section-how_it_works {
   background-color: #fff;
   display: block;
