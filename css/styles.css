@@ -208,11 +208,35 @@ header {
   text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.27);
 }
 
-.customers-text {
+.customers-detail {
   position: absolute;
   top: 0;
 
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.customer-container {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 8rem;
+
+  padding: 3rem 4rem;
+  background-color: #eee;
+  opacity: 80%;
+  transform: skewX(-20deg);
+}
+
+.customer-container h2 {
+  transform: skewX(20deg);
+}
+
+.customer-text {
+  transform: skewX(20deg);
+  font-size: 1.8rem;
+}
+
+.customer-text h4 {
+  text-align: right;
 }
