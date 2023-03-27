@@ -182,3 +182,37 @@ header {
   font-weight: 600;
   border-radius: 0.5rem;
 }
+
+/* ***********OUR CUSTOMERS SECTION*********** */
+/* **************************************** */
+.section-customers {
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-image {
+  background-image: url("/images/dog-and-cat.jpg");
+
+  filter: brightness(80%) blur(3px);
+  -webkit-filter: brightness(80%) blur(3px);
+
+  background-size: cover;
+  background-position: center;
+
+  height: 80rem;
+  max-width: 100%;
+}
+
+.heading-light {
+  color: #fff;
+  text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.27);
+}
+
+.customers-text {
+  position: absolute;
+  top: 0;
+
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
