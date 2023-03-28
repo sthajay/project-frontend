@@ -247,3 +247,32 @@ header {
 .customer-text h4 {
   text-align: right;
 }
+
+/* ***********NEWSLETTER SECTION*********** */
+/* **************************************** */
+.section-newsletter {
+  margin-bottom: 10rem;
+}
+
+.section-newsletter .main-heading {
+  margin-bottom: 1rem;
+}
+
+.newsletter-container {
+  margin: 0 20%;
+  text-align: center;
+}
+
+.newsletter-container p {
+  font-size: 2rem;
+}
+
+.newsletter-input {
+  padding: 1rem 2rem;
+  margin: 3rem auto;
+  width: 50%;
+  font-size: 1.6rem;
+
+  display: block;
+  align-self: flex-start;
+}
