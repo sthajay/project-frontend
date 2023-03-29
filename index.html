@@ -40,6 +40,15 @@
 
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/general.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header>
@@ -160,20 +169,156 @@
         </div>
       </section>
 
-      <h1>This is the website for the dogs and cats.</h1>
-      <p>Group 5 Members:</p>
-      <ul>
-        <li>Ajay Shrestha</li>
-        <li>Gaurab Pokhrel</li>
-        <li>Gopal Gautam</li>
-        <li>Nirajan Karki</li>
-        <li>Sakar Thapa</li>
-      </ul>
+      <section class="section-how_it_works">
+        <h1 class="main-heading">How It Works</h1>
+        <div class="how_it_works-grid">
+          <div class="plan">
+            <ion-icon class="icon" name="clipboard-outline"></ion-icon>
+            <h3 class="tertiary-heading">Choose Your Plan</h3>
+            <div class="bar"></div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto error ad neque pariatur veniam temporibus.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="plan">
+            <ion-icon class="icon" name="paw-outline"></ion-icon>
+            <h3 class="tertiary-heading">Create Your Profile</h3>
+            <div class="bar"></div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto error ad neque pariatur veniam temporibus.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="plan">
+            <ion-icon class="icon" name="gift-outline"></ion-icon>
+            <h3 class="tertiary-heading">Receive Benefits</h3>
+            <div class="bar"></div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto error ad neque pariatur veniam temporibus.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+      <section class="section-customers">
+        <div class="bg-image"></div>
+        <div class="customers-detail">
+          <h1 class="main-heading heading-light">Our Customers</h1>
 
-      <p>testttttttt</p>
+          <div class="customer-container">
+            <img
+              class="customer-img"
+              src="images/customer1.jpg"
+              alt="customer image"
+            />
+            <div class="customer-text">
+              <p>
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Minima, autem commodi adipisci animi quaerat nam. Eveniet eum
+                adipisci laudantium corrupti?Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit."
+              </p>
+              <h4>Ivy Alexandra</h4>
+            </div>
+          </div>
+
+          <div class="customer-container">
+            <img
+              class="customer-img"
+              src="images/customer2.jpg"
+              alt="customer image"
+            />
+            <div class="customer-text">
+              <p>
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Minima, autem commodi adipisci animi quaerat nam. Eveniet eum
+                adipisci laudantium corrupti?Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit."
+              </p>
+              <h4>James Watson</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-newsletter">
+        <h1 class="main-heading">Our Newsletter</h1>
+        <div class="newsletter-container">
+          <p>
+            Subscribe to our newsletter for our Latest Deals and Special Offers
+          </p>
+          <input
+            class="newsletter-input"
+            type="text"
+            placeholder="Email address"
+          />
+
+          <a class="active-button" href="#">Subscribe</a>
+        </div>
+      </section>
     </main>
     <footer>
-      <p>THIS IS THE FOOTER</p>
+      <div class="footer-container">
+        <div class="footer-div">
+          <h2 style="color: #dc2f02">LOGO</h2>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+          </ul>
+          <p>Copyright © 2023 by PawsNClaws, Inc. All rights reserved.</p>
+        </div>
+
+        <div class="footer-div">
+          <h2>CONTACT US</h2>
+          <ul>
+            <li>ADDRESS</li>
+            <li><a href="tel:+11234567890"> +1 (123)-456-7980</a></li>
+            <li>
+              <a href="mailto:info@pawsnclaws.com"> info@pawsnclaws.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-div">
+          <h2>ACCOUNT</h2>
+          <ul>
+            <li><a href="#"> Create Account</a></li>
+            <li><a href="#"> Sign In</a></li>
+            <li><a href="#"> IOS App</a></li>
+            <li><a href="#"> Android App</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div">
+          <h2>COMPANY</h2>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div">
+          <h2>RESOURCES</h2>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+            <li><a href="#">Copyright</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
