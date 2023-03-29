@@ -62,7 +62,7 @@ header {
 .hero-text {
   position: absolute;
   top: 25%;
-  right: 15%;
+  right: 10%;
 
   max-width: 600px;
 
@@ -112,7 +112,7 @@ header {
 
 .service-text p {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .service-text a:link,
@@ -150,7 +150,7 @@ header {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8rem;
+  column-gap: 5rem;
 
   text-align: center;
 }
@@ -270,7 +270,7 @@ header {
 .newsletter-input {
   padding: 1rem 2rem;
   margin: 3rem auto;
-  width: 50%;
+  width: 60%;
   font-size: 1.6rem;
 
   display: block;
