@@ -1,5 +1,7 @@
 .navigation {
   position: fixed;
+  background-color: #fcf3e7;
+  border-bottom: 0.5px solid #ddd;
 }
 
 .contact-us-container {
@@ -42,12 +44,13 @@
   color: #fff;
   line-height: 1.2;
   text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.27);
-  border-color: #4CAF50; 
   border-style: solid; 
   border-width:medium;
   background-color: white; 
   padding:1.5%;
-  margin-right: 10%
+  margin-right: 10%;
+  margin-bottom : 5%;
+  border-radius: 4px;
 }
 
 
@@ -56,9 +59,11 @@
 }
 
 body{
-  background-color: aliceblue;
+  background-color: #fcf3e7;
 }
 
 #map-details{
+  border-radius: 4px;
   margin-left: 8%;
+  margin-bottom : 5%;
 }
