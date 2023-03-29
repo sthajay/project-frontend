@@ -1,0 +1,39 @@
+.serviceHeader {
+    position: relative;
+    background-color: red;
+    height: 75vh;
+}
+
+.serviceBackgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceTextContainer {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.hightLightServiceText {
+    color: #dc2f02;
+}
+
+.serviceWelcomeText {
+    border-left: 2px solid #dc2f02;
+}
+
+.serviceTextButtons {
+    padding-top: 20px;
+}
+
+.serviceInfoContainer {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, white, #c62a02);
+}
