@@ -1,0 +1,64 @@
+.navigation {
+  position: fixed;
+}
+
+.contact-us-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  margin-top: 10%;
+}
+  
+#address-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+#phone-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+#email-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+.text-box-design{
+  text-align: center; 
+  font-size: 18px; 
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+.hero-text-modify {
+  text-align: center;
+  color: #fff;
+  line-height: 1.2;
+  text-shadow: 3px 1px 7px rgba(0, 0, 0, 0.27);
+  border-color: #4CAF50; 
+  border-style: solid; 
+  border-width:medium;
+  background-color: white; 
+  padding:1.5%;
+  margin-right: 10%
+}
+
+
+#form-container{
+  display: inline-block;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+#map-details{
+  margin-left: 8%;
+}
