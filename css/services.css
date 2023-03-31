@@ -1,0 +1,152 @@
+.serviceHeader {
+    position: relative;
+    background-color: red;
+    height: 75vh;
+}
+
+.serviceBackgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceTextContainer {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.hightLightServiceText {
+    color: #dc2f02;
+}
+
+.serviceWelcomeText {
+    border-left: 2px solid #dc2f02;
+    font-size: 1.8rem;
+}
+
+.serviceText {
+    font-size: 3rem;
+}
+
+.serviceTextButtons {
+    padding-top: 20px;
+}
+
+.serviceInfoContainer {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceMainRow {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.serviceMainColumn {
+    flex: 100%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.cardImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 10px;
+}
+
+.cardHeaderText {
+    font-size: 3.6rem;
+}
+
+.serviceNoteText,
+.cardParagraph {
+    font-size: 1.1rem;
+}
+
+/* Pricing css */
+.planHeader{
+    font-size: 3.6rem;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.pricingContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricingColumn {
+    width: 100%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+/* Pricing css */
+
+@media only screen and (min-width: 600px) {
+    .serviceMainColumn {
+        flex: 50%;
+    }
+
+    .pricingColumn {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .serviceMainColumn {
+        flex: 32%;
+    }
+
+    .pricingColumn {
+        width: 33.3% !important;
+    }
+}
