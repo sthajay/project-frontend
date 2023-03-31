@@ -197,6 +197,7 @@ small{
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .overlay {
@@ -215,6 +216,8 @@ small{
   -moz-transition: .2s ease;
   -ms-transition: .2s ease;
   -o-transition: .2s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: white;
 }
 
 .container:hover .overlay {
@@ -222,7 +225,7 @@ small{
 }
 
 .header {
-  color: white;
+  color: #292F36;
   font-size: 20px;
   position: absolute;
   top: 30%;
@@ -242,8 +245,27 @@ small{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: 3rem;
   display: flex;
-  align-content: space-between;
-
+  justify-content: center;
+  gap: 2rem;
+}
+.role{
+  font-size: 1.5rem;
+}
+.active-hyperlink{
+  color: #292F36;
+}
+.overlay-footer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: -webkit-center;
+  top: 65%;
+  position: absolute;   
+  width: 100%;
+  gap: 0.5rem;
+}
+.team_memeber{
+  background-color:fcf3e7 ;
+  display: flex;
 }
