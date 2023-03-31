@@ -1,6 +1,5 @@
 .serviceHeader {
     position: relative;
-    background-color: red;
     height: 75vh;
 }
 
@@ -23,11 +22,11 @@
 
 .serviceWelcomeText {
     border-left: 2px solid #dc2f02;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .serviceText {
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
 .serviceTextButtons {
@@ -79,7 +78,7 @@
 
 .serviceNoteText,
 .cardParagraph {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 }
 
 /* Pricing css */
@@ -122,8 +121,9 @@
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
+
 
 .price .grey {
     background-color: #eee;
