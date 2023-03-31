@@ -89,7 +89,7 @@ img{
 }
 h1{
   font-family: "Poppins", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .sub-heading{
   font-family: "Poppins", sans-serif;
@@ -98,20 +98,20 @@ h1{
 }
 .quote{
   text-align: center;
-  font-size: 3.3rem;
+  font-size: 3rem;
   margin: auto;
-  padding: 1rem;
+  padding: 3rem;
   border: 1rem solid #c3bdb4;
-  max-width: 55%;
+  max-width: 43%;
   position: relative;
-  margin-top: 7%;
-  border-radius:20px;
-  -webkit-border-radius:20px;
-  -moz-border-radius:20px;
-  -ms-border-radius:20px;
-  -o-border-radius:20px;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  border-radius:6rem;
+  -webkit-border-radius:6rem;
+  -moz-border-radius:6rem;
+  -ms-border-radius:6rem;
+  -o-border-radius:6rem;
   border-width: 1rem;
-  
 }
 blockquote{
   color: #4D5053;
@@ -154,6 +154,32 @@ small{
     width: 5px;
   }
 }
+.what_we_do-img{
+  border-radius: 6rem;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+}
+.main-button{
+  width: 19rem;
+  height: 6rem;
+  border-radius: 1rem;
+  background-color:#292F36 ;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  word-spacing: 0.5;
+  font-family: 'Poppins';
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
 .section-wrapper{
   margin-top: 5%;
 }
@@ -171,6 +197,7 @@ small{
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .overlay {
@@ -189,6 +216,8 @@ small{
   -moz-transition: .2s ease;
   -ms-transition: .2s ease;
   -o-transition: .2s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: white;
 }
 
 .container:hover .overlay {
@@ -196,6 +225,17 @@ small{
 }
 
 .header {
+  color: #292F36;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.social_media{
   color: white;
   font-size: 20px;
   position: absolute;
@@ -205,4 +245,27 @@ small{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.role{
+  font-size: 1.5rem;
+}
+.active-hyperlink{
+  color: #292F36;
+}
+.overlay-footer{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: -webkit-center;
+  top: 65%;
+  position: absolute;   
+  width: 100%;
+  gap: 0.5rem;
+}
+.team_memeber{
+  background-color:fcf3e7 ;
+  display: flex;
 }
