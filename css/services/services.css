@@ -82,7 +82,7 @@
 }
 
 /* Pricing css */
-.planHeader{
+.planHeader {
     font-size: 3.6rem;
     margin-top: 50px;
     text-align: center;
@@ -131,6 +131,7 @@
     background-color: #eee;
     font-size: 20px;
 }
+
 /* Pricing css */
 
 @media only screen and (min-width: 600px) {
@@ -142,8 +143,9 @@
         width: 50% !important;
     }
 
-    .pricingContainer, .serviceMainRow {
-        padding:0 20%;
+    .pricingContainer,
+    .serviceMainRow {
+        padding: 0 20%;
     }
 }
 
