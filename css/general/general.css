@@ -124,3 +124,81 @@ body {
   font-size: 2rem;
   line-height: 2.5;
 }
+
+/* ***************FOOTER**************** */
+/* **************************************** */
+footer {
+  /* height: 40rem; */
+  background-color: #333;
+  color: #eee;
+}
+
+.footer-container {
+  padding: 10rem 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 8rem;
+}
+
+.footer-div h2 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin-bottom: 2rem;
+}
+
+.footer-div .social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-div p {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  columns: #ddd;
+}
+
+.footer-div .social-icons ion-icon {
+  font-size: 3rem;
+}
+
+.footer-div ul {
+  list-style: none;
+}
+
+.footer-div a:link,
+.footer-div a:visited,
+.footer-div li {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2.5;
+
+  color: #ddd;
+}
+
+/* SMALLER DESKTOPS OR TABLET IN LANDSCAPE */
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 50% !important;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+/* TABLETS */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 40% !important;
+  }
+}
+
+/* MOBILE PHONES */
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}

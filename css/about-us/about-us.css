@@ -59,7 +59,10 @@
   width: 100%;
 }
 .image-wrapper{
+  width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 5rem
 }
 .image{
   width: 100%;
@@ -185,7 +188,7 @@ small{
 }
 .container {
   position: relative;
-  width: 25%;
+  width: 15%;
 }
 .services-grid{
   grid-template-rows: none !important;
@@ -193,8 +196,8 @@ small{
 
 .employee_dp {
   display: block;
-  width: 24rem;
-  height: 35rem;
+  width: 28rem;
+  height: 40rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -209,8 +212,8 @@ small{
   bottom: 0;
   left: 0;
   right: 0;
-  width: 24rem;
-  height: ;
+  width: 28rem;
+  height: 40rem;  
   opacity: 0;
   border-radius: 2rem;
   transition: .2s ease;
@@ -251,6 +254,8 @@ small{
 .image_wrapper{
   width: 100%;
   display: flex;
+  justify-content:center;
+  gap: 5rem;
 }
 
 .header {
