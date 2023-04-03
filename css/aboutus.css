@@ -185,13 +185,16 @@ small{
 }
 .container {
   position: relative;
-  width: 50%;
+  width: 25%;
+}
+.services-grid{
+  grid-template-rows: none !important;
 }
 
 .employee_dp {
   display: block;
   width: 24rem;
-  height: auto;
+  height: 35rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -220,15 +223,41 @@ small{
   background-color: white;
 }
 
+
 .container:hover .overlay {
   opacity: 1;
+}
+.team_container{
+  width: 100%;
+}
+.team_member{
+  background-color:#ffc49b ;
+  display: flex;
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.team_sub_heading{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  width: 33%;
+}
+.team_member_header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+.image_wrapper{
+  width: 100%;
+  display: flex;
 }
 
 .header {
   color: #292F36;
   font-size: 20px;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -239,7 +268,7 @@ small{
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -260,12 +289,12 @@ small{
   flex-flow: column;
   justify-content: center;
   text-align: -webkit-center;
-  top: 65%;
+  top: 60%;
   position: absolute;   
   width: 100%;
   gap: 0.5rem;
 }
-.team_memeber{
-  background-color:fcf3e7 ;
+.achievement{
+  width: 100%;
   display: flex;
 }
