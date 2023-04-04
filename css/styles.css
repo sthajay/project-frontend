@@ -289,4 +289,11 @@ header {
     width: 100%;
     text-align: center;
   }
+  .contact-us-container {
+    flex-direction: column-reverse !important;
+  }
+
+  .map {
+    margin-top: 50px !important;
+  }
 }
