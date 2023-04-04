@@ -405,12 +405,4 @@ header {
   .plan {
     padding: 6 rem 8rem;
   }
-  .contact-us-container {
-    flex-direction: column-reverse !important;
-  }
-
-  .map {
-    margin-top: 50px !important;
-  }
-  
 }
