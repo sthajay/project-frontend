@@ -176,10 +176,10 @@ footer {
   color: #ddd;
 }
 
-
+/* SMALLER DESKTOPS OR TABLET IN LANDSCAPE */
 @media only screen and (max-width: 1280px) {
   html {
-    font-size: 45% !important;
+    font-size: 50% !important;
   }
 
   .footer-container {
@@ -188,6 +188,14 @@ footer {
   }
 }
 
+/* TABLETS */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 40% !important;
+  }
+}
+
+/* MOBILE PHONES */
 @media only screen and (max-width: 480px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
