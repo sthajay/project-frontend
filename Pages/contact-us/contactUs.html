@@ -14,7 +14,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PawsNClaws</title>
+  <title>Contact Us</title>
   <meta name="description"
     content="Find everything you need for your furry friend at PawsNClaws. From well services to high-quality pet food, we have it all for your furry friend. Kindly visit us today to give your pet the best care possible." />
   <meta property="og:title" content="PawsNClaws" />
@@ -40,9 +40,9 @@
   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 ></script>
 
-  <link rel="stylesheet" href="../css/styles.css" />
-  <link rel="stylesheet" href="../css/general/general.css" />
-  <link rel="stylesheet" href="../css/contact-us/contactUsStyle.css" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+  <link rel="stylesheet" href="../../css/general/general.css" />
+  <link rel="stylesheet" href="../../css/contact-us/contactUsStyle.css" />
 </head>
 
 <body>
@@ -55,23 +55,24 @@
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         
         <ul class="nav-links">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./services/services.html">Services</a></li>
-          <li><a href="./about-us/about-us.html">About Us</a></li>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="./../services/services.html">Services</a></li>
+          <li><a href="./../about-us/about-us.html">About Us</a></li>
           <li><a href="contactUs.html">Contact Us</a></li>
         </ul>
       </div>
     </nav>
   </header>
   <main>
-    <h1 class="main-heading">''We Offer Service 24/7''</h1>
+    <label class="main-heading-modify">
+      <b class="main-header">Contact Us</b>
+      <b class="sub-header">Feel free to message us any time We are at your service 24/7</b>
+    </label>
     <div class="contact-us-container" style="margin-top:-5% ;">
       <!-- <div class="hero-text-modify"> -->
         <div class="container">
-          <h3 style="text-align: center;">Send Us a Messsage</h3>
-          <p style="color:black;font-size: 15px;">Our team is at your service, so please don't hesitate to contact us with
-            any questions or concerns. </p>
-          <form>
+          <h3 class="container-header">Drop a message</h3>
+            <form>
             <div class="row">
               <div class="col-25">
                 <label for="fname">First Name</label>
@@ -90,10 +91,18 @@
             </div>
             <div class="row">
               <div class="col-25">
-                <label for="lname">Email</label>
+                <label for="email">Email</label>
               </div>
               <div class="col-75">
                 <input type="email" id="email" name="email" placeholder="Your email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="phone">Phone</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="phone" name="phone" placeholder="Your phone number..">
               </div>
             </div>
             <div class="row">
@@ -113,7 +122,7 @@
                 <label for="subject">Message</label>
               </div>
               <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:55px"></textarea>
               </div>
             </div>
             <div class="row">
@@ -129,22 +138,22 @@
       </div>
     </div>
 
-    <div class="icon-detail">
-      <div class="address-details-modify">
-        <i class="fas fa-map-marker-alt" style="margin-left: 82px;"></i><br>
-        <span style="margin-left: 55px;">Address</span><br>
-        Yorkland Blvd, North York<br><br>
+    <div class="contact_details_container">
+      <div class="contact_details">
+        <i class="fas fa-map-marker-alt" ></i>
+        <span>Address</span>
+        Yorkland Blvd, North York
       </div>
   
-      <div class="phone-details-modify">
-        <i class="fas fa-phone-alt"style="margin-left: 63px;"></i><br>
-        <span style="margin-left: 47px;"> Phone</span><br>
-        <a href="tel:+11234567890" style="text-decoration: none; color: black;"> +1 (123)-456-7980</a><br><br>
+      <div class="contact_details">
+        <i class="fas fa-phone-alt"></i>
+        <span > Phone</span>
+        <a href="tel:+11234567890" style="text-decoration: none; color: black;"> +1 (123)-456-7980</a>
       </div>
   
-      <div class="email-details-modify">
-        <i class="fas fa-envelope" style="margin-left: 60px;"></i><br>
-        <span style="margin-left: 47px;">Email</span><br>
+      <div class="contact_details">
+        <i class="fas fa-envelope" ></i>
+        <span >Email</span>
         <a href="mailto:info@pawsnclaws.com" style="text-decoration: none;color: black">info@pawsnclaws.com</a>
       </div>
     </div>

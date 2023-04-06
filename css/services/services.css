@@ -22,11 +22,11 @@
 
 .serviceWelcomeText {
     border-left: 2px solid #dc2f02;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .serviceText {
-    font-size: 4.5rem;
+    font-size: 6.2rem;
 }
 
 .serviceTextButtons {
@@ -34,11 +34,15 @@
 }
 
 .serviceInfoContainer {
-    height: 25vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.serviceInfoText {
+    font-size: 4.4rem;
 }
 
 .serviceMainRow {
@@ -70,91 +74,65 @@
 
 .container {
     padding: 10px;
+    height: 20rem;
+    overflow: auto;
 }
 
 .cardHeaderText {
     font-size: 3.6rem;
 }
 
-.serviceNoteText,
 .cardParagraph {
     font-size: 1.8rem;
 }
 
 /* Pricing css */
-.planHeader {
-    font-size: 3.6rem;
-    margin-top: 50px;
-    text-align: center;
-}
-
 .pricingContainer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-top: 50px;
-}
-
-.pricingColumn {
     width: 100%;
-    padding: 8px;
+    padding: 2rem;
 }
 
-.price {
-    list-style-type: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
-}
-
-.price .header {
-    background-color: #111;
-    color: white;
-    font-size: 25px;
-}
-
-.price li {
-    border-bottom: 1px solid #eee;
-    padding: 20px;
+.planHeader {
     text-align: center;
-    font-size: 1.5rem;
+    padding: 4rem 0;
+    font-size: 4.4rem;
 }
 
-
-.price .grey {
-    background-color: #eee;
-    font-size: 20px;
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
+th {
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
 /* Pricing css */
 
 @media only screen and (min-width: 600px) {
     .serviceMainColumn {
         flex: 50%;
     }
-
-    .pricingColumn {
-        width: 50% !important;
-    }
-
-    .pricingContainer,
-    .serviceMainRow {
-        padding: 0 20%;
-    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .serviceMainColumn {
-        flex: 32%;
+    .serviceMainRow {
+        padding: 0 20%;
     }
 
-    .pricingColumn {
-        width: 33.3% !important;
+    .serviceMainColumn {
+        flex: 50%;
     }
 }

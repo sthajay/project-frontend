@@ -12,36 +12,16 @@
   padding: 0 5vw;
 }
 
-.main-heading {
-  margin-top: 10%;
+.main-heading-modify {
+  margin-top: 90px;
   margin-bottom: 5%;
-  border: 2.6px solid #000;
   border-radius: 15px 50px 30px 5px;
   padding: 10px;
-  border-radius: 30px;
-  background-color: #f7f7f7;
-  width:45%;
-  margin-left: 30%;
-}
-
-.address-details-modify {
-  position: absolute;
-  margin-left: 4%;
-  font-size: 15px;
-  color: black;
-}
-
-.phone-details-modify {
-  position: absolute;
-  margin-left: 42%;
-  font-size: 15px;
-  color: black;
-}
-
-.email-details-modify {
-  margin-left: 72%;
-  font-size: 15px;
-  color: black;
+  border-radius: 1rem;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
 }
 
 .text-box-design {
@@ -94,6 +74,110 @@ body {
   height: 450px;
 }
 
+.contact-us-container {
+  flex-direction: column-reverse !important;
+}
+
+.map {
+  margin-top: 50px !important;
+}
+
+/*new added css form*/
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 225px;
+  margin-top: 10px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.main-header {
+  font-size: 3.5rem
+}
+
+.sub-header {
+  font-size: 1.6rem;
+  width: 100%;
+  font-weight: normal;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: black;
+  height: 80%;
+  margin-top: 48px;
+  font-size: 1.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact_details_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
 /* Added */
 @media only screen and (max-width: 1080px) {
   #form-container {
@@ -126,94 +210,20 @@ body {
   }
 }
 
-.contact-us-container {
-  flex-direction: column-reverse !important;
-}
-
-.map {
-  margin-top: 50px !important;
-}
-
-/*new added css form*/
-
-* {
-  box-sizing: border-box;
-}
-
-input[type=text], input[type=email], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 225px;
-  margin-top:10px;
-
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  color: black;
-  height: 80%;
-  margin-top: 48px;
-  font-size: 1.3rem;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media screen and (max-width: 768px) {
-  .col-25, .col-75 {
+
+  .col-25,
+  .col-75 {
     width: 100%;
     margin-top: 0;
   }
-  .container{
+
+  .container {
     height: 92%;
     font-size: 2.4rem;
   }
-  .main-heading{
-    margin-top:60px;
-  }
-  .address-details-modify,.phone-details-modify,.email-details-modify {
-    margin-right: 10px;
-    font-size: 1.5rem !important;
+
+  .main-heading {
+    margin-top: 60px;
   }
 }
-
-
-
