@@ -74,7 +74,7 @@ header {
 
 .hero-text {
   position: absolute;
-  top: 25%;
+  bottom: 25%;
   right: 10%;
 
   max-width: 600px;
@@ -338,11 +338,12 @@ header {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    cursor: pointer;
     z-index: 9999;
   }
   input[type="checkbox"]:checked ~ .nav-links a {
     padding: 2rem 0;
-    font-size: 3.6rem;
+    font-size: 3rem;
     color: #333;
     font-weight: 500;
     text-shadow: none;
@@ -368,7 +369,7 @@ header {
 
   .hero-text {
     left: 5%;
-    top: 60%;
+    bottom: 10%;
   }
   .services-grid,
   .how_it_works-grid,
@@ -404,5 +405,11 @@ header {
   }
   .plan {
     padding: 6 rem 8rem;
+  }
+  .plan p {
+    line-height: 2;
+  }
+  .icon {
+    font-size: 10rem;
   }
 }
