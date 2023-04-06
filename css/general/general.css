@@ -134,7 +134,8 @@ footer {
 }
 
 .footer-container {
-  padding: 10rem 20%;
+  /* padding: 10rem 20%; */
+  padding:10rem 20rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 8rem;

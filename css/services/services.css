@@ -22,11 +22,11 @@
 
 .serviceWelcomeText {
     border-left: 2px solid #dc2f02;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .serviceText {
-    font-size: 4.5rem;
+    font-size: 6.2rem;
 }
 
 .serviceTextButtons {
@@ -34,11 +34,15 @@
 }
 
 .serviceInfoContainer {
-    height: 25vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.serviceInfoText {
+    font-size: 4.4rem;
 }
 
 .serviceMainRow {
@@ -78,7 +82,6 @@
     font-size: 3.6rem;
 }
 
-.serviceNoteText,
 .cardParagraph {
     font-size: 1.8rem;
 }
@@ -92,7 +95,7 @@
 .planHeader {
     text-align: center;
     padding: 4rem 0;
-    font-size: 3.6rem;
+    font-size: 4.4rem;
 }
 
 table,
@@ -113,7 +116,7 @@ table {
 }
 
 td {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 1.5rem;
 }
 /* Pricing css */
@@ -130,6 +133,6 @@ td {
     }
 
     .serviceMainColumn {
-        flex: 32%;
+        flex: 50%;
     }
 }
