@@ -13,15 +13,15 @@
 }
 
 .main-heading-modify {
-  margin-top: 10%;
-    margin-bottom: 5%;
-    border-radius: 15px 50px 30px 5px;
-    padding: 10px;
-    border-radius: 1rem;
-    font-size: 3rem;
-    display: flex;
-    text-align: center;
-    flex-flow: column;
+  margin-top: 90px;
+  margin-bottom: 5%;
+  border-radius: 15px 50px 30px 5px;
+  padding: 10px;
+  border-radius: 1rem;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
 }
 
 .text-box-design {
@@ -88,7 +88,10 @@ body {
   box-sizing: border-box;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type=text],
+input[type=email],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -108,21 +111,24 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   margin-left: 225px;
-  margin-top:10px;
+  margin-top: 10px;
 
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
-.main-header{
+
+.main-header {
   font-size: 3.5rem
 }
-.sub-header{
+
+.sub-header {
   font-size: 1.6rem;
   width: 100%;
   font-weight: normal;
 }
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -133,7 +139,8 @@ input[type=submit]:hover {
   font-size: 1.3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.container-header{
+
+.container-header {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
@@ -204,18 +211,19 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .col-25, .col-75 {
+
+  .col-25,
+  .col-75 {
     width: 100%;
     margin-top: 0;
   }
-  .container{
+
+  .container {
     height: 92%;
     font-size: 2.4rem;
   }
-  .main-heading{
-    margin-top:60px;
+
+  .main-heading {
+    margin-top: 60px;
   }
 }
-
-
-
