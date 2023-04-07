@@ -1,3 +1,5 @@
+/* ************Navigation section*********** */
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,9 @@
   color: #dc2f02;
   text-shadow: none;
 }
+/* ************Navigation section end*********** */
+
+/* ************header image*********** */
 header {
   position: relative;
 }
@@ -63,6 +68,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 5rem;
+  flex-wrap: wrap ;
 }
 .image {
   width: 100%;
@@ -99,6 +105,9 @@ h1 {
   font-size: 1rem;
   color: #4d5053;
 }
+/* ************header image end*********** */
+
+/* ************quote section started*********** */
 .quote {
   text-align: center;
   font-size: 3rem;
@@ -157,12 +166,15 @@ small {
     width: 5px;
   } */
 }
+/* ************quote section end*********** */
+
+/* ************main content started*********** */
 .what_we_do-img {
-  border-radius: 6rem;
-  -webkit-border-radius: 6rem;
-  -moz-border-radius: 6rem;
-  -ms-border-radius: 6rem;
-  -o-border-radius: 6rem;
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
 }
 .main-button {
   width: 19rem;
@@ -186,49 +198,12 @@ small {
 .section-wrapper {
   margin-top: 5%;
 }
-.container {
-  position: relative;
-  width: 15%;
-}
+
 .services-grid {
   grid-template-rows: none !important;
 }
 
-.employee_dp {
-  display: block;
-  width: 28rem;
-  height: 40rem;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 28rem;
-  height: 40rem;
-  opacity: 0;
-  border-radius: 2rem;
-  transition: 0.2s ease;
-  background-color: #008cba;
-  -webkit-transition: 0.2s ease;
-  -moz-transition: 0.2s ease;
-  -ms-transition: 0.2s ease;
-  -o-transition: 0.2s ease;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  background-color: white;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
+/* ************main content end*********** */
 
 /* ***************Problem We Solve**************** */
 /* **************************************** */
@@ -273,7 +248,9 @@ small {
   width: 10rem !important;
   margin-top: 2rem !important;
 }
+/* ************problem we solve end*********** */
 
+/* ************Team content*********** */
 .team_container {
   width: 100%;
 }
@@ -300,8 +277,43 @@ small {
   display: flex;
   justify-content: center;
   gap: 5rem;
+  flex-wrap: wrap;
+}
+.container {
+  position: relative;
+  width: 25%;
+}
+.employee_dp {
+  display: block;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  border-radius: 2rem;
+  transition: 0.2s ease;
+  background-color: #008cba;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
 .header {
   color: #292f36;
   font-size: 20px;
@@ -315,7 +327,7 @@ small {
 }
 .social_media {
   color: white;
-  font-size: 20px;
+  font-size: 2.4rem;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -343,6 +355,9 @@ small {
   width: 100%;
   gap: 0.5rem;
 }
+/* ************Team content end*********** */
+
+/* ************Achievement section*********** */
 .achievement {
   width: 100%;
   display: flex;
@@ -380,19 +395,103 @@ small {
   border-left: 0.1rem solid green;
   height: 15rem;
 }
+/* ************Achievement section end*********** */
 
 /* ************MEDIA QUERIES*********** */
 /* ************************************ */
 
 /* SMALLER DESKTOPS OR TABLET IN LANDSCAPE */
 @media only screen and (max-width: 1280px) {
+  .image-text-box {
+    left: 38%;
+  }
+  .quote {
+    margin-top: 8%;
+  }
+  .left {
+    margin-top: 1.1rem;
+  }
   .section-problem-solve {
     padding: 1px 15% 10rem 15%;
+  }
+  .what_we_do-img {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .image-text-box {
+    left: 36%;
+  }
+  .left {
+    top: -2.9rem;
+  }
+  .quote {
+    border-width: 0.7rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+  .what_we_do-img {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+  .achievement_header {
+    font-size: 7rem;
+  }
+  .achievement_subheader {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  .header {
+    font-size: 1.7rem;
+  }
+  .social_media {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .image-text-box {
+    left: 37%;
+  }
+  .left {
+    top: -14%;
+  }
+  .what_we_do-img {
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+  .achievement_header {
+    font-size: 7rem;
+  }
+  .achievement_subheader {
+    font-size: 2rem;
   }
 }
 
 /* TABLETS */
 @media only screen and (max-width: 768px) {
+  .image-text-box {
+    left: 34%;
+  }
+  .quote {
+    margin-top: 11%;
+  }
+  .right {
+    bottom: -37px;
+  }
   .section-problem-solve {
     padding: 1px 5% 10rem 5%;
   }
@@ -400,6 +499,22 @@ small {
     width: 85%;
     padding: 4rem 4rem;
   }
+  .header {
+    font-size: 2.4rem;
+  }
+  .role{
+    font-size: 1.9rem;
+  }
+  .social_media{
+    font-size: 2.8rem;
+  }
+  .image-wrapper .container {
+    width: 40%;
+  }
+  .overlay-footer{
+    font-size: 1.3rem;
+  }
+
 }
 
 /* MOBILE PHONES */
