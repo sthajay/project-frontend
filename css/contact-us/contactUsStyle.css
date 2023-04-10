@@ -111,6 +111,7 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 10px;
+  margin-left:140px;
 }
 
 input[type="submit"]:hover {
