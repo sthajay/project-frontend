@@ -126,12 +126,14 @@ td {
   font-size: 1.8rem;
   padding: 1.5rem;
 }
+
 /* Pricing css */
 
 @media only screen and (min-width: 600px) {
   .serviceMainRow {
     padding: 0 10%;
   }
+
   .serviceMainColumn {
     flex: 50%;
   }
