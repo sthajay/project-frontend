@@ -110,8 +110,8 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 225px;
   margin-top: 10px;
+  float:right;
 }
 
 input[type="submit"]:hover {
