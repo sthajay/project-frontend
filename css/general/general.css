@@ -170,6 +170,10 @@ footer {
   list-style: none;
 }
 
+.footer-div li:first-child {
+  font-size: 1.2rem;
+}
+
 .footer-div a:link,
 .footer-div a:visited,
 .footer-div li {
@@ -181,8 +185,7 @@ footer {
 }
 
 .footer-div a:hover,
-.footer-div a:active,
-.footer-div li {
+.footer-div a:active {
   color: #bbb;
 }
 
