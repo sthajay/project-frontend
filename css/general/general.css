@@ -91,6 +91,9 @@ body {
 .button:active {
   background-color: #eee;
 }
+.mobile-view-team-member{
+  display: none;
+}
 
 .active-button:link,
 .active-button:visited {
@@ -201,5 +204,30 @@ footer {
   .footer-container {
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+  }
+
+  .image-text-box{
+    width: 35rem;
+    height: 9rem;
+    left:26%;
+  }
+  .quote{
+    max-width: 34rem;
+    font-size: 2rem;
+    margin-top:17%;
+    width: 42rem;
+    font-size: 1.9rem;
+  }
+  .verticle_line{
+    display: none;
+  }
+  .achievement{
+    height: fit-content;
+  }
+  .achievement_wrapper{
+    flex-wrap: wrap;
+  }
+  .team_sub_heading{
+    width: 100%;
   }
 }
