@@ -385,6 +385,9 @@ header {
 
 /* MOBILE PHONES */
 @media only screen and (max-width: 480px) {
+  .hero-img {
+    object-position: left;
+  }
   .services-grid,
   .how_it_works-grid,
   .newsletter-container,

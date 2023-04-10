@@ -91,7 +91,7 @@ body {
 .button:active {
   background-color: #eee;
 }
-.mobile-view-team-member{
+.mobile-view-team-member {
   display: none;
 }
 
@@ -137,8 +137,8 @@ footer {
 }
 
 .footer-container {
-  /* padding: 10rem 20%; */
-  padding: 10rem 20rem;
+  padding: 10rem 20%;
+  /* padding: 10rem 20rem; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 8rem;
@@ -187,6 +187,7 @@ footer {
   }
 
   .footer-container {
+    padding: 10rem 15%;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2rem;
   }
@@ -206,28 +207,28 @@ footer {
     row-gap: 2rem;
   }
 
-  .image-text-box{
+  .image-text-box {
     width: 35rem;
     height: 9rem;
-    left:26%;
+    left: 26%;
   }
-  .quote{
+  .quote {
     max-width: 34rem;
     font-size: 2rem;
-    margin-top:17%;
+    margin-top: 17%;
     width: 42rem;
     font-size: 1.9rem;
   }
-  .verticle_line{
+  .verticle_line {
     display: none;
   }
-  .achievement{
+  .achievement {
     height: fit-content;
   }
-  .achievement_wrapper{
+  .achievement_wrapper {
     flex-wrap: wrap;
   }
-  .team_sub_heading{
+  .team_sub_heading {
     width: 100%;
   }
 }
