@@ -180,6 +180,12 @@ footer {
   color: #ddd;
 }
 
+.footer-div a:hover,
+.footer-div a:active,
+.footer-div li {
+  color: #bbb;
+}
+
 /* SMALLER DESKTOPS OR TABLET IN LANDSCAPE */
 @media only screen and (max-width: 1280px) {
   html {
