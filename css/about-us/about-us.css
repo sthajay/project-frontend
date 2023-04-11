@@ -257,10 +257,12 @@ small {
 /* ************Team content*********** */
 .team_container {
   width: 100%;
+  padding: 2rem;
 }
 .team_member {
   background-color: #f4f0ec;
-  display: flex;
+  width: 100%;
+  display: contents;
   text-align: center;
   padding: 7rem 5rem;
 }
