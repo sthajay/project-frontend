@@ -68,7 +68,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
 }
 .image {
   width: 100%;
@@ -105,26 +105,22 @@ h1 {
   font-size: 1rem;
   color: #4d5053;
 }
+.serviceTextContainer {
+  left: 0rem !important;
+}
 /* ************header image end*********** */
 
 /* ************quote section started*********** */
 .quote {
-  text-align: center;
-  font-size: 3rem;
-  margin: auto;
-  padding: 3rem;
-  border: 1rem solid #c3bdb4;
-  max-width: 43%;
+  font-size: 4rem;
+  max-width: 61%;
   position: relative;
-  /* margin-top: 8%; */
-  margin-bottom: 4%;
-  border-radius: 6rem;
-  -webkit-border-radius: 6rem;
-  -moz-border-radius: 6rem;
-  -ms-border-radius: 6rem;
-  -o-border-radius: 6rem;
-  border-width: 1rem;
   color: white;
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
+.quoteby {
+  font-size: 2rem;
 }
 blockquote {
   /* color: #4d5053; */
@@ -133,7 +129,7 @@ blockquote {
   z-index: 20;
   padding: 0rem 1rem;
   font-style: italic;
-
+  font-weight: bold;
 }
 .left {
   position: absolute;
@@ -227,10 +223,8 @@ small {
 
 .solve-content {
   width: 70%;
-
   background-color: #eee;
   border-radius: 0.3rem;
-
   padding: 6rem 4rem;
 }
 
@@ -286,6 +280,7 @@ small {
 .container {
   position: relative;
   width: 25%;
+  height:auto !important
 }
 .employee_dp {
   display: block;
@@ -328,6 +323,8 @@ small {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 .social_media {
   color: white;
@@ -359,7 +356,7 @@ small {
   width: 100%;
   gap: 0.5rem;
 }
-.mobile-view-profile{
+.mobile-view-profile {
   display: none;
 }
 /* ************Team content end*********** */
@@ -488,8 +485,8 @@ small {
   }
 }
 
-@media only screen and (max-width : 480px ){
-  .serviceTextContainer{
+@media only screen and (max-width: 480px) {
+  .serviceTextContainer {
     margin-left: 18%;
   }
 }
@@ -515,19 +512,18 @@ small {
   .header {
     font-size: 2.4rem;
   }
-  .role{
+  .role {
     font-size: 1.9rem;
   }
-  .social_media{
+  .social_media {
     font-size: 2.8rem;
   }
   .image-wrapper .container {
     width: 40%;
   }
-  .overlay-footer{
+  .overlay-footer {
     font-size: 1.3rem;
   }
-
 }
 
 /* MOBILE PHONES */
@@ -541,10 +537,10 @@ small {
     padding: 4rem 6rem;
     width: 70%;
   }
-  .team_member{
+  .team_member {
     display: none;
   }
-  .mobile-view-profile{
+  .mobile-view-profile {
     display: block !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 40rem;
@@ -557,12 +553,12 @@ small {
     font-size: 1.9rem;
     padding-bottom: 1rem;
   }
-  .mobile-details{
+  .mobile-details {
     font-size: 2rem;
     padding: 0.5rem;
     font-weight: 400;
   }
-  
+
   button {
     border: none;
     outline: 0;
@@ -575,42 +571,43 @@ small {
     width: 100%;
     font-size: 18px;
   }
-  
+
   a {
     text-decoration: none;
     font-size: 22px;
     color: black;
   }
-  
-  button:hover, a:hover {
+
+  button:hover,
+  a:hover {
     opacity: 0.7;
   }
- .image-container{
-  width: 40rem;
-  height: 70rem;
- }
- .mobile-image{
-  width: 100%;
-  height: 100%;
- }
- .desc{
-  padding: 15px;
-  text-align: center;
- }
- .mobile-social_media{
-  color: white;
-  font-size: 2.4rem;
-  position: relative;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 24px 0
- }
- 
+  .image-container {
+    width: 40rem;
+    height: 70rem;
+  }
+  .mobile-image {
+    width: 100%;
+    height: 100%;
+  }
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .mobile-social_media {
+    color: white;
+    font-size: 2.4rem;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 24px 0;
+  }
 }
