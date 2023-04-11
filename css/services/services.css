@@ -105,6 +105,10 @@
   font-size: 4.4rem;
 }
 
+.bottom-space {
+  margin-bottom: 40px;
+}
+
 table,
 td,
 th {
@@ -126,6 +130,8 @@ td {
   font-size: 1.8rem;
   padding: 1.5rem;
 }
+
+
 
 /* Pricing css */
 
