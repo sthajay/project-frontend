@@ -3,41 +3,33 @@
   background-color: #fcf3e7;
   border-bottom: 0.5px solid #ddd;
 } */
+.logoContainer {
+  /* width: 13rem; */
+}
 
 .contact-us-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
+  /* Added */
+  padding: 0 5vw;
 }
 
-.main-heading{
-  margin-top: 10%;
-}
-  
-#address-details{
-  float: left; 
-  margin-right: 3%;
-  font-size: 15px;
-  color:black;
-}
-
-#phone-details{
-  float: left; 
-  margin-right: 3%;
-  font-size: 15px;
-  color:black;
+.main-heading-modify {
+  margin-top: 110px;
+  margin-bottom: 5%;
+  border-radius: 15px 50px 30px 5px;
+  padding: 10px;
+  border-radius: 1rem;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
 }
 
-#email-details{
-  float: left; 
-  margin-right: 3%;
-  font-size: 15px;
-  color:black;
-}
-
-.text-box-design{
-  text-align: center; 
-  font-size: 18px; 
+.text-box-design {
+  text-align: center;
+  font-size: 18px;
   padding-top: 2px;
   padding-bottom: 7px;
 }
@@ -46,17 +38,16 @@
   text-align: center;
   color: #fff;
   line-height: 1.2;
-  border-style: solid; 
-  border-width:medium;
-  background-color: white; 
-  padding:1.5%;
-  margin-left: 10%;
-  margin-bottom : 5%;
+  border-style: solid;
+  border-width: medium;
+  background-color: white;
+  padding: 1.5%;
+  /* margin-left: 10%; */
+  margin-bottom: 5%;
   border-radius: 4px;
 }
 
-
-#form-container{
+#form-container {
   /* display: inline-block; */
   display: flex;
   justify-content: space-around;
@@ -69,13 +60,178 @@
   font-family: inherit;
 }
 
-body{
+body {
   background-color: #fcf3e7;
 }
 
-#map-details{
+#map-details {
   border-radius: 4px;
-  margin-right: 5vw;
+  /*Removed: margin-right: 5vw; */
   width: 100%;
-  margin-bottom : 5vw;
+  margin-bottom: 5vw;
+}
+
+.contact-us-container iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+}
+
+.contact-us-container {
+  flex-direction: column-reverse !important;
+}
+
+.map {
+  margin-top: 50px !important;
+}
+
+/*new added css form*/
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  /* padding: 12px 12px 12px 0; */
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.main-header {
+  font-size: 3.5rem;
+}
+
+.sub-header {
+  font-size: 1.6rem;
+  width: 100%;
+  font-weight: normal;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: black;
+  height: 80%;
+  margin-top: 48px;
+  font-size: 1.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact_details_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.contact_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.contact_details i {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Added */
+@media only screen and (max-width: 1080px) {
+  #form-container {
+    display: grid;
+  }
+
+  #w3review {
+    padding-top: 2px;
+    padding-bottom: 7px;
+  }
+
+  .text-box-design {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us-container {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+  }
+
+  .hero-text-modify {
+    margin-left: 0;
+  }
+
+  .contact-us-container iframe {
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .col-25,
+  .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .container {
+    height: 92%;
+    font-size: 2.4rem;
+  }
+
+  .main-heading {
+    margin-top: 60px;
+  }
 }
