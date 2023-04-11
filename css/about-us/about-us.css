@@ -45,6 +45,7 @@
   color: #dc2f02;
   text-shadow: none;
 }
+
 /* ************Navigation section end*********** */
 
 /* ************header image*********** */
@@ -58,11 +59,13 @@ header {
   width: 100vw;
   object-fit: cover;
 }
+
 .main-content-wrapper {
   position: relative;
   top: 8rem;
   width: 100%;
 }
+
 .image-wrapper {
   width: 100%;
   display: flex;
@@ -70,12 +73,15 @@ header {
   gap: 5rem;
   flex-wrap: wrap;
 }
+
 .image {
   width: 100%;
 }
+
 img {
   width: 100%;
 }
+
 .image-text-box {
   color: #292f36;
   position: absolute;
@@ -96,6 +102,7 @@ img {
   justify-content: center;
   flex-direction: column;
 }
+
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 3rem;
@@ -106,9 +113,11 @@ h1 {
   font-size: 1rem;
   color: #4d5053;
 }
+
 .serviceTextContainer {
   left: 0rem !important;
 }
+
 /* ************header image end*********** */
 
 /* ************quote section started*********** */
@@ -120,6 +129,7 @@ h1 {
   margin-left: 5rem;
   margin-top: 6rem;
 }
+
 .about_us_header {
   font-size: 5.5rem;
   max-width: 71%;
@@ -128,6 +138,7 @@ h1 {
 .quoteby {
   font-size: 2.2rem;
 }
+
 blockquote {
   /* color: #4d5053; */
   text-shadow: -1px 1px #555;
@@ -137,6 +148,7 @@ blockquote {
   font-style: italic;
   font-weight: bold;
 }
+
 .left {
   position: absolute;
   top: -50px;
@@ -149,6 +161,7 @@ blockquote {
   color: transparent;
   opacity: 0;
 }
+
 .right {
   position: absolute;
   bottom: -50px;
@@ -161,6 +174,7 @@ blockquote {
   color: transparent;
   opacity: 0;
 }
+
 small {
   font-size: 1.7rem;
   /* color: #336699; */
@@ -172,6 +186,7 @@ small {
     width: 5px;
   } */
 }
+
 /* ************quote section end*********** */
 
 /* ************main content started*********** */
@@ -182,6 +197,7 @@ small {
   -ms-border-radius: 4rem;
   -o-border-radius: 4rem;
 }
+
 .main-button {
   width: 19rem;
   height: 6rem;
@@ -196,6 +212,7 @@ small {
   border-radius: 1.5rem;
   letter-spacing: 0.2rem;
 }
+
 /* -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
@@ -252,6 +269,7 @@ small {
   width: 10rem !important;
   margin-top: 2rem !important;
 }
+
 /* ************problem we solve end*********** */
 
 /* ************Team content*********** */
@@ -259,6 +277,7 @@ small {
   width: 100%;
   padding: 2rem;
 }
+
 .team_member {
   background-color: #f4f0ec;
   width: 100%;
@@ -266,12 +285,14 @@ small {
   text-align: center;
   padding: 7rem 5rem;
 }
+
 .team_sub_heading {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 2rem;
   width: 33%;
 }
+
 .team_member_header {
   margin: 7rem 0;
   width: 100%;
@@ -279,6 +300,7 @@ small {
   flex-direction: column;
   align-items: center;
 }
+
 .image_wrapper {
   width: 100%;
   display: flex;
@@ -286,12 +308,14 @@ small {
   gap: 8rem;
   flex-wrap: wrap;
 }
+
 .container {
   position: relative;
   width: 25%;
   height: auto !important;
   width: auto;
 }
+
 .employee_dp {
   display: block;
   height: 49rem;
@@ -324,6 +348,7 @@ small {
 .container:hover .overlay {
   opacity: 1;
 }
+
 .header {
   color: #292f36;
   font-size: 20px;
@@ -337,6 +362,7 @@ small {
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+
 .social_media {
   color: white;
   font-size: 2.4rem;
@@ -351,12 +377,15 @@ small {
   justify-content: center;
   gap: 2rem;
 }
+
 .role {
   font-size: 1.5rem;
 }
+
 .active-hyperlink {
   color: #292f36;
 }
+
 .overlay-footer {
   display: flex;
   flex-flow: column;
@@ -367,9 +396,11 @@ small {
   width: 100%;
   gap: 0.5rem;
 }
+
 .mobile-view-profile {
   display: none;
 }
+
 /* ************Team content end*********** */
 
 /* ************Achievement section*********** */
@@ -377,10 +408,12 @@ small {
   width: 100%;
   display: flex;
 }
+
 .achievement {
   width: 100%;
   height: 50vh;
 }
+
 .achievement_wrapper {
   display: flex;
   width: 100%;
@@ -389,27 +422,32 @@ small {
   align-items: center;
   gap: 6rem;
 }
+
 .achievement_section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .achievement_header {
   font-size: 8rem;
   font-family: "DM Serif Display", serif;
   font-weight: normal;
   color: #cda274;
 }
+
 .achievement_subheader {
   font-size: 3rem;
   font-weight: 300;
   color: #cda274;
   font-family: "DM Serif Display", serif;
 }
+
 .verticle_line {
   border-left: 0.1rem solid green;
   height: 15rem;
 }
+
 /* ************Achievement section end*********** */
 
 /* ************MEDIA QUERIES*********** */
@@ -420,15 +458,19 @@ small {
   .image-text-box {
     left: 38%;
   }
+
   .quote {
     /* margin-top: 8%; */
   }
+
   .left {
     margin-top: 1.1rem;
   }
+
   .section-problem-solve {
     padding: 1px 15% 10rem 15%;
   }
+
   .what_we_do-img {
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -442,9 +484,11 @@ small {
   .image-text-box {
     left: 36%;
   }
+
   .left {
     top: -2.9rem;
   }
+
   .quote {
     border-width: 0.7rem;
     border-radius: 3rem;
@@ -453,6 +497,7 @@ small {
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
   }
+
   .what_we_do-img {
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -460,27 +505,34 @@ small {
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
   }
+
   .achievement_header {
     font-size: 7rem;
   }
+
   .achievement_subheader {
     font-size: 3rem;
     font-weight: normal;
   }
+
   .header {
     font-size: 1.7rem;
   }
+
   .social_media {
     font-size: 2rem;
   }
 }
+
 @media screen and (max-width: 1440px) {
   .image-text-box {
     left: 37%;
   }
+
   .left {
     top: -14%;
   }
+
   .what_we_do-img {
     border-radius: 3rem;
     -webkit-border-radius: 3rem;
@@ -488,9 +540,11 @@ small {
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
   }
+
   .achievement_header {
     font-size: 7rem;
   }
+
   .achievement_subheader {
     font-size: 2rem;
   }
@@ -507,31 +561,40 @@ small {
   .image-text-box {
     left: 34%;
   }
+
   .quote {
     /* margin-top: 11%; */
   }
+
   .right {
     bottom: -37px;
   }
+
   .section-problem-solve {
     padding: 1px 5% 10rem 5%;
   }
+
   .solve-content {
     width: 85%;
     padding: 4rem 4rem;
   }
+
   .header {
     font-size: 2.4rem;
   }
+
   .role {
     font-size: 1.9rem;
   }
+
   .social_media {
     font-size: 2.8rem;
   }
+
   .image-wrapper .container {
     width: 40%;
   }
+
   .overlay-footer {
     font-size: 1.3rem;
   }
@@ -544,10 +607,12 @@ small {
     row-gap: 4rem;
     align-items: flex-start;
   }
+
   .solve-content {
     padding: 4rem 6rem;
     width: 70%;
   }
+
   /* truncate lines */
   .help-para {
     overflow: hidden;
@@ -555,22 +620,27 @@ small {
     --max-lines: 3;
     max-height: 10rem;
   }
+
   .help-para::before {
     content: "...";
     position: absolute;
     bottom: 0;
     right: 0;
   }
+
   .help-para::after {
     content: "";
     position: absolute;
-    right: 0; /* note: not using bottom */
+    right: 0;
+    /* note: not using bottom */
     width: 1rem;
     height: 1rem;
   }
+
   .team_member {
     display: none;
   }
+
   .mobile-view-profile {
     display: block !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -579,11 +649,13 @@ small {
     text-align: center;
     font-family: arial;
   }
+
   .title {
     color: grey;
     font-size: 1.9rem;
     padding-bottom: 1rem;
   }
+
   .mobile-details {
     font-size: 2rem;
     padding: 0.5rem;
@@ -613,14 +685,17 @@ small {
   a:hover {
     opacity: 0.7;
   }
+
   .image-container {
     width: 40rem;
     height: 70rem;
   }
+
   .mobile-image {
     width: 100%;
     height: 100%;
   }
+
   .desc {
     padding: 15px;
     text-align: center;
@@ -641,12 +716,14 @@ small {
     gap: 2rem;
     margin: 24px 0;
   }
+
   .quote {
     font-size: 1rem;
     width: 81rem;
     left: -14rem;
     max-width: 100%;
   }
+
   .about_us_header {
     font-size: 4rem;
     max-width: 100% !important;

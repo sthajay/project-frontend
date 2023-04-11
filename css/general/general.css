@@ -91,6 +91,7 @@ body {
 .button:active {
   background-color: #eee;
 }
+
 .mobile-view-team-member {
   display: none;
 }
@@ -221,6 +222,7 @@ footer {
     height: 9rem;
     left: 26%;
   }
+
   .quote {
     max-width: 34rem;
     font-size: 2rem;
@@ -228,15 +230,19 @@ footer {
     width: 42rem;
     font-size: 1.9rem;
   }
+
   .verticle_line {
     display: none;
   }
+
   .achievement {
     height: fit-content;
   }
+
   .achievement_wrapper {
     flex-wrap: wrap;
   }
+
   .team_sub_heading {
     width: 100%;
   }
