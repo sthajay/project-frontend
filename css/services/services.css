@@ -58,14 +58,15 @@
 
 .card {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  */transition: 0.3s;
+  */
+  transition: 0.3s;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: ;1rem
+  /* border-radius: ;1rem
   -webkit-border-radius:;
   -moz-border-radius:;
   -ms-border-radius:;
-  -o-border-radius:;
+  -o-border-radius:; */
 }
 
 .cardImg {
@@ -102,6 +103,7 @@
 .cardParagraph {
   font-size: 1.8rem;
   line-height: 1.2;
+  text-align: justify;
 }
 
 /* Pricing css */
@@ -141,8 +143,6 @@ td {
   font-size: 1.8rem;
   padding: 1.5rem;
 }
-
-
 
 /* Pricing css */
 

@@ -273,6 +273,7 @@ small {
   width: 33%;
 }
 .team_member_header {
+  margin: 7rem 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -293,7 +294,7 @@ small {
 }
 .employee_dp {
   display: block;
-  height:49rem;
+  height: 49rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -547,6 +548,26 @@ small {
     padding: 4rem 6rem;
     width: 70%;
   }
+  /* truncate lines */
+  .help-para {
+    overflow: hidden;
+
+    --max-lines: 3;
+    max-height: 10rem;
+  }
+  .help-para::before {
+    content: "...";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .help-para::after {
+    content: "";
+    position: absolute;
+    right: 0; /* note: not using bottom */
+    width: 1rem;
+    height: 1rem;
+  }
   .team_member {
     display: none;
   }
@@ -626,7 +647,7 @@ small {
     left: -14rem;
     max-width: 100%;
   }
-  .about_us_header{
+  .about_us_header {
     font-size: 4rem;
     max-width: 100% !important;
   }
