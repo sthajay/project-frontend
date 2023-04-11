@@ -459,10 +459,6 @@ small {
     left: 38%;
   }
 
-  .quote {
-    /* margin-top: 8%; */
-  }
-
   .left {
     margin-top: 1.1rem;
   }
@@ -560,10 +556,6 @@ small {
 @media only screen and (max-width: 768px) {
   .image-text-box {
     left: 34%;
-  }
-
-  .quote {
-    /* margin-top: 11%; */
   }
 
   .right {
