@@ -122,7 +122,9 @@ h1 {
 }
 .about_us_header {
   font-size: 5.5rem;
+  max-width: 71%;
 }
+
 .quoteby {
   font-size: 2.2rem;
 }
@@ -623,5 +625,6 @@ small {
   }
   .about_us_header{
     font-size: 4rem;
+    max-width: 100% !important;
   }
 }
