@@ -1,0 +1,81 @@
+/* .navigation {
+  position: fixed;
+  background-color: #fcf3e7;
+  border-bottom: 0.5px solid #ddd;
+} */
+
+.contact-us-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.main-heading{
+  margin-top: 10%;
+}
+  
+#address-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+#phone-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+#email-details{
+  float: left; 
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+}
+
+.text-box-design{
+  text-align: center; 
+  font-size: 18px; 
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+.hero-text-modify {
+  text-align: center;
+  color: #fff;
+  line-height: 1.2;
+  border-style: solid; 
+  border-width:medium;
+  background-color: white; 
+  padding:1.5%;
+  margin-left: 10%;
+  margin-bottom : 5%;
+  border-radius: 4px;
+}
+
+
+#form-container{
+  /* display: inline-block; */
+  display: flex;
+  justify-content: space-around;
+}
+
+#w3review {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+}
+
+body{
+  background-color: #fcf3e7;
+}
+
+#map-details{
+  border-radius: 4px;
+  margin-right: 5vw;
+  width: 100%;
+  margin-bottom : 5vw;
+}
