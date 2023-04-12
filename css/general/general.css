@@ -116,7 +116,7 @@ footer {
 .footer-div p {
   margin-top: 3rem;
   font-size: 1.2rem;
-  columns: #ddd;
+  color: #ddd;
 }
 
 .footer-div .social-icons ion-icon {
